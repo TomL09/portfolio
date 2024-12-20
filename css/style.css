@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 20px auto;
+    background-color: #2a1a4e;
+    background-image: url('../images/fond-ecran.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-decoration: none;
+    max-width: 1200px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 30px;
+    color: #e1e1e1;
+}
+
+.menu {
+    background-color: rgba(35, 40, 45, 0.85);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu:hover {
+    background-color: #1d2227;
+    transform: translateY(-3px);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.menu ul li a {
+    color: #e1e1e1;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #fff;
+    background-color: #5c6b73;
+    font-weight: 600;
+}
+
+h2 {
+    color: #ffcc00;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+p {
+    color: #e1e1e1;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+section {
+    padding: 60px 20px;
+    margin: 40px 0;
+    border-bottom: 1px solid #444;
+    background-color: rgba(35, 40, 45, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    background-color: #2a2f36;
+}
+
+#compétence, #formation, #réalisations, #contact {
+    margin-top: 50px;
+    padding: 40px 20px;
+    background-color: #333333;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#compétence, #formation, #réalisations, #contact {
+    transition: all 0.3s ease-in-out;
+}
+
+#compétence:hover, #formation:hover, #réalisations:hover, #contact:hover {
+    background-color: #2a2f36;
+    transform: translateY(-5px);
+}
+
+#contact {
+    background-color: #1d2227;
+    border: 2px solid #0099cc;
+}
+
+#contact h2 {
+    color: #0099cc;
+}
+
+#contact p {
+    color: #e1e1e1;
+    font-size: 18px;
+    text-align: center;
+}
+
+#contact p a {
+    color: #0099cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact p a:hover {
+    text-decoration: underline;
+}
