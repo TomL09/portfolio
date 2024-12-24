@@ -8,6 +8,7 @@ error_reporting(E_ALL);
 $imagePath = "images/pp.JPG";
 ?>
 
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
