@@ -26,7 +26,7 @@ if ($response->success) {
         $message = $_POST['message'];
 
 
-        $to = 'alaisney7@gmail.com';
+        $to = 'tlaisney7@gmail.com';
         $body = 'De : ' . $name . ' (' . $email . ')' . "\n\n" . $message;
         mail($to, $subject, $body);
 
