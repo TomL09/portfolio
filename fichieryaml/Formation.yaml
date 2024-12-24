@@ -1,6 +1,7 @@
 titre: "Bienvenue sur mon portfolio"
 Formations:
-      Etudes: Mes études 
-      etude1: Brevet des collèges --> Collège Simone Veil Villers-Bocage
-      etude2: Bac général spé NSI/HHGSP --> Lycée Malherbe
-      etude3: 1ère année de BTS SIO --> CaenSup Sainte Ursule
+      titre: Mes études
+      etudes:
+            - Brevet des collèges --> Collège Simone Veil Villers-Bocage
+            - Bac général spé NSI/HHGSP --> Lycée Malherbe
+            - 1ère année de BTS SIO --> CaenSup Sainte Ursule

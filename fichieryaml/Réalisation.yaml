@@ -1,4 +1,11 @@
 titre: "Bienvenue sur mon portfolio"
 Réalisation:
-      Projets: Mes projets
+      titre : Mes projets
+      projets:
+            portfolio:
+                  titre: Portfolio
+                  technos:
+                        - HTML
+                        - CSS
+                        - PHP
       

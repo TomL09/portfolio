@@ -1,4 +1,10 @@
 titre: "Mon portfolio"
 Competence:
-      domaines1: -création de page web
-      item: html, css et php
+      domaines:
+            web :
+                  titre : Création de page web
+                  items :
+                        - HTML
+                        - CSS
+                        - PHP
+                        - JavaScript
