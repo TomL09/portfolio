@@ -140,7 +140,7 @@ section:hover {
     section {
         text-align: center;
     }
-    .accueil div {
+    .accueil div div {
         display: block;
     }
     .form-container div div {
