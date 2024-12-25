@@ -11,8 +11,20 @@ html {
     color: white;
 }
 
-.accueil div {
+.accueil div div {
     display: flex;
+}
+
+.accueil div a {
+    text-decoration: none;
+    background-color: #ffcc00;
+    color: white;
+    padding: 14px;
+    border-radius: 12px
+}
+.accueil div a:hover {
+    background-color: #bd9600;
+    transition: 0.2s;
 }
 
 .menu {

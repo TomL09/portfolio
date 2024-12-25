@@ -42,11 +42,14 @@ $imagePath = "images/pp.JPG";
     <div class="accueil">
         <h2>Accueil</h2>
         <div>
-            <p>Bonjours, Je m'appelle Tom Laisney, j'ai 18 ans et je suis étudiant en 1ère année de BTS SIO à CaenSup
-                Sainte Ursule ! </p>
-            <?php if (file_exists($imagePath)): ?>
-                <img src="<?= htmlspecialchars($imagePath) ?>" alt="Photo de Tom Laisney" class="profile-image">
-            <?php endif; ?>
+            <div>
+                <p>Bonjours, Je m'appelle Tom Laisney, j'ai 18 ans et je suis étudiant en 1ère année de BTS SIO à CaenSup
+                    Sainte Ursule ! </p>
+                <?php if (file_exists($imagePath)): ?>
+                    <img src="<?= htmlspecialchars($imagePath) ?>" alt="Photo de Tom Laisney" class="profile-image">
+                <?php endif; ?>
+            </div>
+            <a href="images/CV.pdf">Mon cv</a>
         </div>
     </div>
 </section>
